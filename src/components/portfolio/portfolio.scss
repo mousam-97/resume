@@ -19,7 +19,7 @@
 
     .item {
       width: 400px;
-      height: 250px;
+      height: 220px;
       border-radius: 20px;
       border: 1px solid lightgrey;
       margin: 10px 20px;
@@ -30,6 +30,12 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
+
+      @include mobile {
+        width: 230px;
+        margin: 10px;
+        height: 150px;
+      }
 
       h3 {
         position: absolute;

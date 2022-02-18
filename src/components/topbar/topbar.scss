@@ -9,6 +9,11 @@
   top: 0;
   z-index: 3;
   transition: all 1s ease;
+  overflow: hidden;
+
+  @include mobile{
+    height: 45px;
+  }
 
   .wrapper {
     padding: 10px 30px;
@@ -26,12 +31,20 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+
+        @include mobile{
+          font-size: 15px;
+        }
       }
 
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
+
+        @include mobile {
+          display:none;
+        }
 
         .icon {
           font-size: 18px;
@@ -53,6 +66,7 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+        overflow: hidden;
 
         span {
           width: 100%;
