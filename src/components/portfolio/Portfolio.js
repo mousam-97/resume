@@ -12,9 +12,9 @@ function Portfolio() {
             <div className="item">
               <img src="assets/Ecommerce-Store.png" alt="project1" />
               <h3>
-                Ecommerce-App: This is a App built using React.js, Node.js,
-                express, and Mongo DB.{" "}
+                Ecommerce-App
               </h3>
+              
             </div>
           </a>
 

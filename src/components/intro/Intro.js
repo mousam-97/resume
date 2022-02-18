@@ -11,7 +11,7 @@ function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 50,
-      strings: ["Software Developer", "B.Tech - NIT Silchar", "Deloitte."],
+      strings: ["Software Engineer", "B.Tech - NIT Silchar", "Deloitte."],
     });
   }, []);
   return (

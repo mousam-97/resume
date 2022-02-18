@@ -13,13 +13,11 @@ function Menu({ menuOpen, setMenuOpen }) {
           <a href="#skills">Skills</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#experience">Experience</a>
-        </li>
-
-        <li onClick={() => setMenuOpen(false)}>
           <a href="#portfolio">Projects</a>
         </li>
-
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#experience">Experience</a>
+        </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="#works">Extra Activities</a>
         </li>

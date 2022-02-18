@@ -11,13 +11,13 @@ function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">
             MOUSAM.
           </a>
-          <div className="itemContainer">
+          {/* <div className="itemContainer">
             <PersonPinIcon className="icon" />
             <span>123-123-123</span>
-          </div>
+          </div> */}
           <div className="itemContainer">
             <EmailIcon className="icon" />
-            <span>mousam.kalita777@gmail.com</span>
+            <span>mousam.kalita.official@gmail.com</span>
           </div>
         </div>
         <div className="right">

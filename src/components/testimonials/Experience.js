@@ -20,10 +20,9 @@ function Experience() {
                 <h2>Technology Analyst (2019-2020)</h2>
                 <ul>
                   <li>
-                    <ArrowRightIcon/>
-                    Conducted Sarbanes-Oxley IT Risk assessment spread across
-                    platforms and technologies including SAP, LINUX, Mainframe
-                    RACF, SQL, Oracle etc.
+                    <ArrowRightIcon />
+                    Conducted Sarbanes-Oxley IT Risk assessment spread across different
+                    platforms and technologies.
                   </li>
 
                   <li>
@@ -35,9 +34,11 @@ function Experience() {
 
                   <li>
                     <ArrowRightIcon />
-                    Responsible for conducting walkthrough meetings, designing
-                    and testing control procedures for various Fortune 500
-                    clients.
+                    Responsible for conducting walkthrough meetings, designing and testing control procedures for various Fortune 500 clients including Starbucks, Nordstorm, Daktronics and Daikin.
+                  </li>
+                  <li>
+                    <ArrowRightIcon />
+                    Built a software project which could automate the creation of Validation sheets for clients which helped reduce the workload of an analyst by 2 hours per report.
                   </li>
                 </ul>
               </div>
