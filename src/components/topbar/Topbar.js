@@ -1,6 +1,5 @@
 import React from "react";
 import "./topbar.scss";
-import PersonPinIcon from "@material-ui/icons/PersonPin";
 import EmailIcon from "@material-ui/icons/Email";
 
 function Topbar({ menuOpen, setMenuOpen }) {
